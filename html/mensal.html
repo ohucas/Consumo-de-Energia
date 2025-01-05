@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Energia - Mensal</title>
+    <link rel="stylesheet" href="/css/mensal.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Monitoramento de Energia - Consumo Mensal</h1>
+        <div id="user-info">
+            <p><strong>Usuário:</strong> Lucas Brito Lopes</p>
+            <p><strong>Email:</strong> lucasbrito_lopes@hotmail.com</p>
+        </div>
+    </header>
+
+    <main>
+       
+        <section id="monthly-consumption">
+            <h2>Gráfico de Consumo de Energia</h2>
+            <canvas id="energyChart" width="400" height="200"></canvas>
+        </section>
+
+        
+        <section id="energy-tips">
+            <h2>Dicas para Maneirar no Consumo de Energia</h2>
+            <ul>
+                <li>Use lâmpadas LED, elas consomem até 80% menos energia.</li>
+                <li>Desligue aparelhos eletrônicos quando não estiverem em uso.</li>
+                <li>Use a máquina de lavar roupas com carga máxima para economizar energia.</li>
+                <li>Evite o uso de aquecedores elétricos, prefira cobertores e roupas mais quentes.</li>
+                <li>Descongele alimentos na geladeira em vez de usar o micro-ondas.</li>
+            </ul>
+        </section>
+
+        
+        <footer>
+            <button id="back-button"><a href="/html/monitoring-choice.html">Voltar</a></button>
+        </footer>
+    </main>
+
+    <script src="/js/mensal.js"></script>
+</body>
+</html>

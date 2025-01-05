@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Energia</title>
+    <link rel="stylesheet" href="/css/temporeal.css">
+</head>
+<body>
+    <header>
+        <h1>Monitoramento de Energia em Tempo Real</h1>
+        <div id="user-info">
+         
+            <p><strong>Usuário:</strong> <span id="user-name">Carregando...</span></p>
+            <p><strong>Email:</strong> <span id="user-email">Carregando...</span></p>
+        </div>
+    </header>
+    <main>
+        <section id="current-kwh">
+            <h2>Consumo Atual</h2>
+            <p id="kwh">0 kWh</p>
+        </section>
+        <section id="alerts">
+            <h2>Alertas</h2>
+            <ul id="alert-list">
+              
+            </ul>
+        </section>
+        <section id="average-consumption">
+            <h2>Média de Consumo por Hora</h2>
+            <p id="average">0 kWh</p>
+        </section>
+    </main>
+    <footer>
+        <button id="back-button"><a href="/html/monitoring-choice.html">Voltar</a></button>
+    </footer>
+    <script src="/js/temporeal.js"></script>
+</body>
+</html>
